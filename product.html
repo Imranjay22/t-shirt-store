@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        a{
+            color: black;
+        }
+        .product{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product .left{
+          
+            width: 40%;
+            height: 900px;
+            overflow: hidden;
+            padding: 70px 50px;
+        
+        }
+
+        .product .right{
+            width: 40%;
+            padding: 70px 50px;
+        }
+        .product .heading{
+            padding-bottom: 30px;
+        }
+        .product .price{
+            color: orangered;
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .product .desc{
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+        .details p{
+            padding: 10px 0;
+            font-size: 22px;
+        }
+        .avail{
+        
+            margin-bottom: 20px;
+            overflow: hidden;
+         
+ 
+        }
+        .product .avail a{
+          text-decoration: none;
+          background-color: green;
+          color: white;
+          padding: 4px 30px;
+          
+        }
+        .product .add-to-cart button{
+            width: 400px;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: 0;
+            cursor: pointer;
+        }
+        
+        .left img{
+            width: 100%;
+            height: 800px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="product">
+        <div class="left">
+            <img src="./img/silver product" alt="">
+        </div>
+        <div class="right">
+            <div class="heading">
+                <h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </h1>
+            </div>
+            <div class="price">USD $33</div>
+            <div class="desc">
+                <p>Description</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo dolorum deleniti itaque eius ipsa esse earum sit hic excepturi alias!</p>
+            </div>
+            <div class="details">
+                    <p><b>Category: </b>Mini Bag</p>
+                    <p><b>Brand: </b>Mini Bag</p>
+                    <p><b>Product Code: </b>Mini Bag</p>
+                    <p><b>Date added to the store: </b>Mini Bag</p>
+            </div>
+            <div class="avail">
+                <a href="">In Stock</a>
+            </div>
+            <div class="add-to-cart">
+                <a href=""><button>Add to cart</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
